@@ -1,5 +1,5 @@
 module.exports = function (str) {
-  let str = str.replace(/\W/g, "");
+   str = str.replace(/\W/g, "");
   let str2=str.split("").reverse().join();
   if(str===str2){
     return true;
